@@ -21,7 +21,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     const nama = urlParams.get('nama') || 'User';
 
-    const pdfUrl = "https://static.wixstatic.com/media/abc123.pdf"; // Ganti dengan link PDF kamu
+    const pdfUrl = "https://drive.google.com/file/d/1tW85Ky02ge1DIfLlBuXRjCG-0gkeDd9y/preview"; // Ganti dengan link PDF kamu
     const viewer = document.getElementById('viewer');
 
     pdfjsLib.getDocument(pdfUrl).promise.then(function(pdf) {
